@@ -1,7 +1,7 @@
 #!/bin/bash
 # Publishes an EeveeSpotify Jam IPA to this Feather source:
 #   1. uploads the IPA as a GitHub release asset (IPAs are too big for git)
-#   2. adds it as the newest version in apps.json
+#   2. adds it as the newest entry in apps.json (flat, one entry per build)
 #   3. commits and pushes apps.json
 #
 # usage: publish.sh <file.ipa> [label] [notes]
@@ -36,14 +36,15 @@ gh release create "$TAG" "$WORK/$ASSET" --repo "$REPO" \
     --title "$SPOTIFY_VERSION Jam – $LABEL" --notes "$NOTES"
 
 /usr/bin/python3 -I tools/add_version.py apps.json \
-    --version "$VERSION" \
-    --date "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+    --name "EeveeSpotify Jam ($LABEL)" \
+    --bundle-id "$(/usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" "$PLIST")" \
+    --version "$SPOTIFY_VERSION" \
+    --full-date "$(date +%Y%m%d%H%M%S)" \
     --size "$(stat -f %z "$IPA")" \
     --url "https://github.com/$REPO/releases/download/$TAG/$ASSET" \
-    --notes "$NOTES" \
-    --min-os "$(/usr/libexec/PlistBuddy -c "Print :MinimumOSVersion" "$PLIST")"
+    --notes "$NOTES"
 
 git add apps.json
-git commit -q -m "Add $VERSION ($LABEL)"
+git commit -q -m "Add $LABEL ($TAG)"
 git push -q
-echo "published $ASSET as $VERSION"
+echo "published $ASSET ($TAG)"
