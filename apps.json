@@ -1,0 +1,22 @@
+{
+  "name": "EeveeSpotify Jam",
+  "identifier": "com.leoturlock.eeveespotify-jam",
+  "sourceURL": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/apps.json",
+  "iconURL": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png",
+  "website": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs",
+  "apps": [
+    {
+      "name": "EeveeSpotify Jam",
+      "bundleIdentifier": "com.spotify.client",
+      "developerName": "Leo Turlock",
+      "subtitle": "EeveeSpotify with Jam",
+      "localizedDescription": "Spotify with EeveeSpotify and EeveeJam (Jam sessions, shared queue). Unsigned; sign it in Feather.",
+      "iconURL": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png",
+      "tintColor": "1DB954",
+      "category": "entertainment",
+      "versions": [],
+      "appPermissions": {}
+    }
+  ],
+  "news": []
+}
