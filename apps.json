@@ -14,8 +14,22 @@
       "iconURL": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png",
       "tintColor": "1DB954",
       "category": "entertainment",
-      "versions": [],
-      "appPermissions": {}
+      "versions": [
+        {
+          "version": "9.1.88-jam.20261020.1119",
+          "date": "2026-10-20T09:19:10Z",
+          "size": 142700819,
+          "downloadURL": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261020.1119/EeveeSpotify-9.1.88-Jam-JamQueue4.ipa",
+          "localizedDescription": "Shared Jam queue working.",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {},
+      "version": "9.1.88-jam.20261020.1119",
+      "versionDate": "2026-10-20T09:19:10Z",
+      "versionDescription": "Shared Jam queue working.",
+      "downloadURL": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261020.1119/EeveeSpotify-9.1.88-Jam-JamQueue4.ipa",
+      "size": 142700819
     }
   ],
   "news": []
