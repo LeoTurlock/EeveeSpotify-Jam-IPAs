@@ -11,6 +11,22 @@
     },
     "apps": [
         {
+            "name": "EeveeSpotify Jam (SyncTiming)",
+            "type": 1,
+            "bundleID": "com.spotify.client",
+            "bundleIdentifier": "com.spotify.client",
+            "version": "9.1.88",
+            "versionDate": "2026-10-20",
+            "fullDate": "20261020164021",
+            "size": 142746660,
+            "down": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261020.1640/EeveeSpotify-9.1.88-Jam-SyncTiming.ipa",
+            "downloadURL": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261020.1640/EeveeSpotify-9.1.88-Jam-SyncTiming.ipa",
+            "developerName": "Leo Turlock",
+            "localizedDescription": "Tighter Jam sync: real clock sync, exact positions, seeks from 140 ms, song changes started together, Bluetooth delay compensation. Install on every phone in the Jam.",
+            "icon": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png",
+            "iconURL": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png"
+        },
+        {
             "name": "EeveeSpotify Jam (QueueAvatars)",
             "type": 1,
             "bundleID": "com.spotify.client",
