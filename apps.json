@@ -11,6 +11,22 @@
     },
     "apps": [
         {
+            "name": "EeveeSpotify Jam (JamFixes2)",
+            "type": 1,
+            "bundleID": "com.spotify.client",
+            "bundleIdentifier": "com.spotify.client",
+            "version": "9.1.88",
+            "versionDate": "2026-10-21",
+            "fullDate": "20261021181322",
+            "size": 142794249,
+            "down": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261021.1813/EeveeSpotify-9.1.88-Jam-JamFixes2.ipa",
+            "downloadURL": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261021.1813/EeveeSpotify-9.1.88-Jam-JamFixes2.ipa",
+            "developerName": "Leo Turlock",
+            "localizedDescription": "Sheets keep their solid background without Liquid Glass; guests only send controls you actually made (Spotify's own calls no longer pause following for 8 s or skip into your recommendations); joining a playing Jam starts its song right away; play on a guest resumes the Jam's song; Copy diagnostics includes the Jam log.",
+            "icon": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png",
+            "iconURL": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png"
+        },
+        {
             "name": "EeveeSpotify Jam (JamFixes)",
             "type": 1,
             "bundleID": "com.spotify.client",
