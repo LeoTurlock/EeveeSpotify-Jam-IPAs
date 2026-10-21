@@ -11,6 +11,22 @@
     },
     "apps": [
         {
+            "name": "EeveeSpotify Jam (JoinSheet)",
+            "type": 1,
+            "bundleID": "com.spotify.client",
+            "bundleIdentifier": "com.spotify.client",
+            "version": "9.1.88",
+            "versionDate": "2026-10-21",
+            "fullDate": "20261021140831",
+            "size": 142945535,
+            "down": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261021.1408/EeveeSpotify-9.1.88-Jam-JoinSheet.ipa",
+            "downloadURL": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261021.1408/EeveeSpotify-9.1.88-Jam-JoinSheet.ipa",
+            "developerName": "Leo Turlock",
+            "localizedDescription": "Join sheet before joining from an invite: listen on this iPhone or from the host's speaker",
+            "icon": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png",
+            "iconURL": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png"
+        },
+        {
             "name": "EeveeSpotify Jam (SyncTiming)",
             "type": 1,
             "bundleID": "com.spotify.client",
