@@ -11,6 +11,22 @@
     },
     "apps": [
         {
+            "name": "EeveeSpotify Jam (JamFixes)",
+            "type": 1,
+            "bundleID": "com.spotify.client",
+            "bundleIdentifier": "com.spotify.client",
+            "version": "9.1.88",
+            "versionDate": "2026-10-21",
+            "fullDate": "20261021174746",
+            "size": 142785906,
+            "down": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261021.1747/EeveeSpotify-9.1.88-Jam-JamFixes.ipa",
+            "downloadURL": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261021.1747/EeveeSpotify-9.1.88-Jam-JamFixes.ipa",
+            "developerName": "Leo Turlock",
+            "localizedDescription": "Invite sheet when starting a Jam; no Liquid Glass unless EeveeSpotify's switch is on; joining pauses your own song and loads the Jam's cleanly (no flicker); steadier sync (smoothed readings, 100 ms threshold); members list on join; swipe the now playing bar to the Jam's next song; queue row avatars no longer cover long titles.",
+            "icon": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png",
+            "iconURL": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png"
+        },
+        {
             "name": "EeveeSpotify Jam (JoinSheet)",
             "type": 1,
             "bundleID": "com.spotify.client",
