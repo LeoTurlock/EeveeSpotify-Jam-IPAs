@@ -11,6 +11,22 @@
     },
     "apps": [
         {
+            "name": "EeveeSpotify Jam (FlickerFix)",
+            "type": 1,
+            "bundleID": "com.spotify.client",
+            "bundleIdentifier": "com.spotify.client",
+            "version": "9.1.88",
+            "versionDate": "2026-10-22",
+            "fullDate": "20261022221217",
+            "size": 142795435,
+            "down": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261022.2212/EeveeSpotify-9.1.88-Jam-FlickerFix.ipa",
+            "downloadURL": "https://github.com/LeoTurlock/EeveeSpotify-Jam-IPAs/releases/download/v9.1.88-jam.20261022.2212/EeveeSpotify-9.1.88-Jam-FlickerFix.ipa",
+            "developerName": "Leo Turlock",
+            "localizedDescription": "Fixes the flicker between the Jam's song and your own recommendations when joining: songs now start at the right position (Spotify's seekTo is in seconds, EeveeJam passed milliseconds, so joined songs started past their end).",
+            "icon": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png",
+            "iconURL": "https://raw.githubusercontent.com/LeoTurlock/EeveeSpotify-Jam-IPAs/main/icon.png"
+        },
+        {
             "name": "EeveeSpotify Jam (JamFixes2)",
             "type": 1,
             "bundleID": "com.spotify.client",
